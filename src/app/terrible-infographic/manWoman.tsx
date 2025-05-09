@@ -4,7 +4,31 @@ export const ManWoman = (props: {
   percentMale: number;
   label: string;
   pos: 1 | -1;
+  defs: boolean;
 }) => {
+  if (props.defs) {
+    return (
+      <>
+        <Person
+          gender="male"
+          percentage={props.percentMale}
+          pos={-1}
+          cx={1050 + 700 * props.pos - 100}
+          cy={2200}
+          defs={true}
+        />
+        <Person
+          gender="female"
+          percentage={100 - props.percentMale}
+          pos={1}
+          cx={1050 + 700 * props.pos + 100}
+          cy={2200}
+          defs={true}
+        />
+      </>
+    );
+  }
+
   return (
     <>
       <Person
@@ -13,6 +37,7 @@ export const ManWoman = (props: {
         pos={-1}
         cx={1050 + 700 * props.pos - 100}
         cy={2200}
+        defs={false}
       />
       <Person
         gender="female"
@@ -20,6 +45,7 @@ export const ManWoman = (props: {
         pos={1}
         cx={1050 + 700 * props.pos + 100}
         cy={2200}
+        defs={false}
       />
 
       <text

@@ -1,4 +1,4 @@
-import { circle } from "./config";
+import { circle, colours } from "./config";
 import { divisions, gradeGroups } from "./data";
 import { Doughnut } from "./doughnut";
 import { ManWoman } from "./manWoman";
@@ -7,18 +7,31 @@ import { ShittyArc } from "./shittyArc";
 export default function TerribleInfographic() {
   return (
     <div>
-      <h1>Terrible infographic!</h1>
-      <div>
+      <div style={{ background: "#000" }}>
         <svg
           style={{
             width: "210mm",
             height: "297mm",
-            border: "5px solid blue",
-            marginLeft: "5em",
+            margin: "5vw",
             background: "rgb(90, 0, 90)",
           }}
           viewBox="0 0 2100 2970"
         >
+          <defs>
+            <ManWoman
+              percentMale={52}
+              label="All staff gender distribution"
+              pos={-1}
+              defs={true}
+            />
+            <ManWoman
+              percentMale={63}
+              label={`BBC wide senior manager\ngender distribution`}
+              pos={+1}
+              defs={true}
+            />
+          </defs>
+
           {/* BBC originally in blocks form */}
           <text
             textAnchor="middle"
@@ -54,7 +67,7 @@ export default function TerribleInfographic() {
             International Women's Day
           </text>
 
-          <circle cx="1616" cy="500" r="20" fill="cyan" />
+          <circle cx="1616" cy="500" r="20" fill={colours.female} />
           <text
             x="1650"
             y="510"
@@ -66,7 +79,7 @@ export default function TerribleInfographic() {
             Female
           </text>
 
-          <circle cx="1616" cy="570" r="20" fill="magenta" />
+          <circle cx="1616" cy="570" r="20" fill={colours.male} />
           <text
             x="1650"
             y="580"
@@ -107,13 +120,13 @@ export default function TerribleInfographic() {
             <ShittyArc
               key={`M${index}`}
               radius={circle.outerRadius - circle.radiusStep * (index + 0.33)}
-              color="magenta"
+              color={colours.male}
               percentage={pctMale}
             />,
             <ShittyArc
               key={`F${index}`}
               radius={circle.outerRadius - circle.radiusStep * index}
-              color="cyan"
+              color={colours.female}
               percentage={100 - pctMale}
             />,
           ])}
@@ -134,11 +147,13 @@ export default function TerribleInfographic() {
             percentMale={52}
             label="All staff gender distribution"
             pos={-1}
+            defs={false}
           />
           <ManWoman
             percentMale={63}
             label={`BBC wide senior manager\ngender distribution`}
             pos={+1}
+            defs={false}
           />
 
           <path

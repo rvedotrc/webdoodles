@@ -1,4 +1,4 @@
-import { doughnuts } from "./config";
+import { colours, doughnuts } from "./config";
 
 export const Doughnut = (props: {
   percentMale: number;
@@ -28,7 +28,7 @@ export const Doughnut = (props: {
     </text>,
     <path
       key="m"
-      stroke="magenta"
+      stroke={colours.male}
       strokeWidth={doughnuts.strokeWith}
       fill="none"
       d={`M${cx},${cy - doughnuts.radius} A ${doughnuts.radius} ${
@@ -53,7 +53,7 @@ export const Doughnut = (props: {
 
     <path
       key="f"
-      stroke="cyan"
+      stroke={colours.female}
       strokeWidth={doughnuts.strokeWith}
       fill="none"
       d={`M${cx},${cy - doughnuts.radius} A ${doughnuts.radius} ${

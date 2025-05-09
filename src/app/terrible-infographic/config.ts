@@ -14,3 +14,8 @@ export const doughnuts = {
   strokeWith: 70,
   gap: 80,
 };
+
+export const colours = {
+  male: "rgb(220,0,220)",
+  female: "rgb(0,220,220)",
+};
