@@ -1,6 +1,7 @@
 import { circle } from "./config";
 import { divisions, gradeGroups } from "./data";
 import { Doughnut } from "./doughnut";
+import { ManWoman } from "./manWoman";
 import { ShittyArc } from "./shittyArc";
 
 export default function TerribleInfographic() {
@@ -18,7 +19,7 @@ export default function TerribleInfographic() {
           }}
           viewBox="0 0 2100 2970"
         >
-          {/* BBC-logo Diversity */}
+          {/* BBC originally in blocks form */}
           <text
             textAnchor="middle"
             x="1050"
@@ -30,7 +31,6 @@ export default function TerribleInfographic() {
             BBC Diversity
           </text>
 
-          {/* celebrates */}
           <text
             textAnchor="middle"
             x="1050"
@@ -42,7 +42,7 @@ export default function TerribleInfographic() {
             celebrates
           </text>
 
-          {/* [graphic] International Women's Day */}
+          {/* [graphic] */}
           <text
             textAnchor="middle"
             x="1050"
@@ -54,7 +54,6 @@ export default function TerribleInfographic() {
             International Women's Day
           </text>
 
-          {/* Legend: female */}
           <circle cx="1616" cy="500" r="20" fill="cyan" />
           <text
             x="1650"
@@ -67,7 +66,6 @@ export default function TerribleInfographic() {
             Female
           </text>
 
-          {/* Legend: male */}
           <circle cx="1616" cy="570" r="20" fill="magenta" />
           <text
             x="1650"
@@ -80,7 +78,6 @@ export default function TerribleInfographic() {
             Male
           </text>
 
-          {/* Year 30 Sept 2012 */}
           <text
             x="1600"
             y="650"
@@ -93,7 +90,6 @@ export default function TerribleInfographic() {
           </text>
 
           {divisions.map(([pctMale, named], index) => [
-            // TODO: text
             <text
               key={`T${index}`}
               x={circle.cx - circle.textOffset}
@@ -122,7 +118,6 @@ export default function TerribleInfographic() {
             />,
           ])}
 
-          {/* All staff gender */}
           <text
             x={circle.cx - 200}
             y={1065}
@@ -135,12 +130,17 @@ export default function TerribleInfographic() {
             {`All staff gender\ndistribution by division %`}
           </text>
 
-          {/* distribution by division % */}
+          <ManWoman
+            percentMale={52}
+            label="All staff gender distribution"
+            pos={-1}
+          />
+          <ManWoman
+            percentMale={63}
+            label={`BBC wide senior manager\ngender distribution`}
+            pos={+1}
+          />
 
-          {/* man-woman graphic, 52m 48f, "All staff gender distribution" */}
-          {/* man-woman graphic, 63m 37f, "BBC wide senior manager gender distribution" */}
-
-          {/* dashed line */}
           <path
             stroke="white"
             strokeWidth={5}
@@ -148,7 +148,6 @@ export default function TerribleInfographic() {
             d="M80,2450 h1940"
           />
 
-          {/* all staff gender by grade group */}
           <text
             textAnchor="middle"
             x="1050"
@@ -170,7 +169,6 @@ export default function TerribleInfographic() {
             />
           ))}
 
-          {/* to find out more visit bbc.co.uk/diversity */}
           <text
             textAnchor="middle"
             x="1050"
