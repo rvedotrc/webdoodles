@@ -1,3 +1,5 @@
+import { BBCBlocks } from "./bbcBlocks";
+import { CircleSymbol } from "./circleSymbol";
 import { circle, colours } from "./config";
 import { divisions, gradeGroups } from "./data";
 import { Doughnut } from "./doughnut";
@@ -33,15 +35,24 @@ export default function TerribleInfographic() {
           </defs>
 
           {/* BBC originally in blocks form */}
+          <BBCBlocks
+            color={"white"}
+            x="740"
+            y="10"
+            height="200pt"
+            width="200pt"
+          />
           <text
-            textAnchor="middle"
-            x="1050"
+            textAnchor="left"
+            x="1030"
             y="170"
             fill="white"
             fontSize={80}
+            letterSpacing={"-1"}
             fontWeight={"bold"}
+            fontFamily="Gill Sans, sans-serif"
           >
-            BBC Diversity
+            Diversity
           </text>
 
           <text
@@ -56,13 +67,17 @@ export default function TerribleInfographic() {
           </text>
 
           {/* [graphic] */}
+          <CircleSymbol x={170} y={195} width={250} height={250} />
           <text
             textAnchor="middle"
             x="1050"
             y="350"
             fill="white"
             fontSize={100}
-            fontWeight={"bold"}
+            fontFamily="Futura"
+            fontVariant={"small"}
+            fontWeight={"medium"}
+            letterSpacing={"-3"}
           >
             International Women's Day
           </text>
