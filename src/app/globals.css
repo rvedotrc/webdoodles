@@ -40,3 +40,8 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: "Transport medium";
+  src: url("/vendor/transport-font/Transport%20Medium.woff2") format("woff");
+}

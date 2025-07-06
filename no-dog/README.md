@@ -21,3 +21,7 @@ A selection of silly road signs inspired by the "dog poo, no thank you" signs th
 ### Warning: triangle
 
 ![A "warning" road sign (triangle with red outline) telling us that we should be aware of musical triangles](./warning-triangle.svg)
+
+## Warning: recursion
+
+![A "warning" road sign (red triangle), where the contents is a Sierpinski triangle (a recursive pattern). There is a label sign underneath the triangle, with the word: "Recursion".](./warning-recursion.png)
