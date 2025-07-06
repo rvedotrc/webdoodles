@@ -15,3 +15,9 @@ A selection of silly road signs inspired by the "dog poo, no thank you" signs th
 ## No entering portals
 
 ![An icon in the style of a road sign (red circle with a line through it) forbidding dogs from entering portals (in the style of the game "Portal")](./no-dog-portal.svg)
+
+## Other signs
+
+### Warning: triangle
+
+![A "warning" road sign (triangle with red outline) telling us that we should be aware of musical triangles](./warning-triangle.svg)

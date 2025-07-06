@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500px" height="500px" xmlns:bx="https://boxy-svg.com">
+  <path d="M 249.846 48.62 L 475.914 440.185 L 23.778 440.185 L 249.846 48.62 Z" style="stroke: rgb(255, 0, 0); stroke-linejoin: round; fill: rgb(255, 0, 0); stroke-width: 46px;"/>
+  <path d="M 249.846 71.115 L 457.768 431.243 L 41.924 431.243 L 249.846 71.115 Z" style="stroke-linejoin: round; fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255); stroke-width: 6px;"/>
+  <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-linejoin: round; stroke-width: 12px;" points="149.506 346.409 249.773 178.154 361.861 374.062 164.851 373.817"/>
+  <g transform="matrix(2.040489, 0, 0, 2.040489, -283.583191, -185.691513)" style="">
+    <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 6; stroke-linejoin: round;" points="304.045 287.621 267.588 246.926"/>
+    <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px;" cx="308.804" cy="292.468" rx="7.532" ry="7.532"/>
+  </g>
+  <rect x="248.234" y="145.679" width="3.069" height="47.499" style="stroke: rgb(0, 0, 0); stroke-miterlimit: 9.14; stroke-linejoin: round; fill: none;" rx="1.137" ry="1.137"/>
+  <defs>
+    <bx:grid x="104.969" y="53.261" width="68.66" height="68.66"/>
+    <bx:export>
+      <bx:file format="png" path="warning-triangle.png" width="125" height="125">
+        <bx:variant scale="2" suffix="@2x"/>
+        <bx:variant scale="4" suffix="@4x"/>
+        <bx:variant scale="8" suffix="@8x"/>
+        <bx:variant scale="16" suffix="@16x"/>
+      </bx:file>
+    </bx:export>
+  </defs>
+</svg>
