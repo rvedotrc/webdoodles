@@ -1,0 +1,77 @@
+#transport {
+  --var-primary-foreground: #ffffff;
+  --var-primary-background: #006c49;
+
+  --var-motorway-permanent-background: #007bc1;
+  --var-motorway-permanent-foreground: #ffffff;
+
+  --var-motorway-temporary-background: #f8e027;
+  --var-motorway-temporary-foreground: #000000;
+
+  --var-pavement-background: #666666;
+  --var-pavement-foreground: #ffffff;
+
+  --var-matrix-foreground: #f9cc00;
+  --var-matrix-background: #000000;
+}
+
+.infoBorder {
+  border: 0.15em solid white;
+  padding: 0.35em;
+  border-radius: 0.4em;
+  width: fit-content;
+}
+
+.primary {
+  color: var(--var-primary-foreground);
+  background-color: var(--var-primary-background);
+}
+
+.motorwayPermanent {
+  color: var(--var-motorway-permanent-foreground);
+  background-color: var(--var-motorway-permanent-background);
+}
+
+.motorwayTemporary {
+  color: var(--var-motorway-temporary-foreground);
+  background-color: var(--var-motorway-temporary-background);
+  border-color: #000000;
+}
+
+.matrix {
+  color: var(--var-matrix-foreground);
+  background-color: var(--var-matrix-background);
+  border-color: #777;
+}
+
+.pavementLarge {
+  white-space: pre;
+  line-height: 250%;
+}
+
+.pavementSmall {
+  white-space: pre;
+  line-height: 150%;
+  margin-block-end: 2em;
+}
+
+body:has(#transport) {
+  margin: 2em;
+  background: #444;
+  color: #fff;
+}
+
+#transport h1,
+#transport h2,
+#transport h3 {
+  width: fit-content;
+  margin-block-end: 0.3em;
+}
+
+#transport li {
+  margin-inline-start: 2em;
+}
+
+#transport a {
+  border-block-end: 0.1em solid #006c49;
+}

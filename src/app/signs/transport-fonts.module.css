@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "AES Ministry Display";
+  src: url(/vendor/transport-font/AES-Ministry-Display.woff2);
+}
+
+.f-aes {
+  font-family: "AES Ministry Display";
+}
+
+@font-face {
+  font-family: "Motorway Permanent";
+  src: url(/vendor/transport-font/Motorway%20Permanent.woff2);
+}
+
+.f-mp {
+  font-family: "Motorway Permanent";
+}
+
+@font-face {
+  font-family: "Motorway Temporary";
+  src: url(/vendor/transport-font/Motorway%20Temporary.woff2);
+}
+
+.f-mt {
+  font-family: "Motorway Temporary";
+}
+
+@font-face {
+  font-family: "Old Road Sign";
+  src: url(/vendor/transport-font/Old%20Road%20Sign.woff2);
+}
+
+.f-ors {
+  font-family: "Old Road Sign";
+}
+
+@font-face {
+  font-family: "Pavement";
+  src: url(/vendor/transport-font/Pavement.woff2);
+}
+
+.f-p {
+  font-family: "Pavement";
+}
+
+@font-face {
+  font-family: "Transport Medium";
+  src: url(/vendor/transport-font/Transport%20Medium.woff2);
+}
+
+.f-tm {
+  font-family: "Transport Medium";
+}
+
+@font-face {
+  font-family: "Transport Medium Greek";
+  src: url(/vendor/transport-font/Transport%20Medium%20Greek.woff2);
+}
+
+.f-tmg {
+  font-family: "Transport Medium Greek";
+}
+
+@font-face {
+  font-family: "Transport Heavy";
+  src: url(/vendor/transport-font/Transport%20Heavy.woff2);
+}
+
+.f-th {
+  font-family: "Transport Heavy";
+}
+
+@font-face {
+  font-family: "VMS";
+  src: url(/vendor/transport-font/VMS.woff2);
+}
+
+.f-vms {
+  font-family: "VMS";
+  white-space: pre;
+}
