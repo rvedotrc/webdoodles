@@ -19,6 +19,10 @@ What else are dogs forbidden from doing?
 
 [<img width=400 src="no-dog-portal.svg" alt="An icon in the style of a road sign (red circle with a line through it) forbidding dogs from entering portals (in the style of the game &quot;Portal&quot;)"/>](no-dog-portal.svg)
 
+## No stilts
+
+[<img width=400 src="no-dog-stilts.svg" alt="An icon in the style of a road sign (red circle with a line through it) forbidding dogs from walking on stilts"/>](no-dog-stilts.svg)
+
 ## Other signs
 
 ### Warning: triangle
