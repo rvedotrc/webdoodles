@@ -68,6 +68,20 @@ body:has(#transport) {
   margin-block-end: 0.3em;
 }
 
+#transport h1 {
+  font-size: 400%;
+}
+
+#transport h2 {
+  font-size: 200%;
+  margin-block: 1em;
+}
+
+#transport h3 {
+  margin-block: 1em;
+  font-size: 150%;
+}
+
 #transport li {
   margin-inline-start: 2em;
 }

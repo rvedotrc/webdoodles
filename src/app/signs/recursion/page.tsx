@@ -1,4 +1,5 @@
 import type { CSSProperties, ReactNode, SVGProps } from "react";
+import * as fonts from "../transport-fonts.module.css";
 
 type P = readonly [number, number];
 type T = { readonly a: P; readonly b: P; readonly c: P };
@@ -139,10 +140,10 @@ export default () => {
           />
 
           <text
+            className={fonts.default["f-tm"]}
             x={-0.37}
             width={0.4}
             color="yellow"
-            fontFamily="Transport medium"
             fontSize={0.15}
             y={0.915}
           >

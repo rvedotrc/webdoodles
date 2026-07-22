@@ -2,7 +2,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="1000" viewBox="-9000 -9000 18000 18000" xmlns:bx="https://boxy-svg.com">
   <defs>
     <bx:export>
-      <bx:file format="png" path="no-dog-trumpet.png" width="125" height="125">
+      <bx:file format="png" path="no-dog-stilts.png" width="125" height="125">
         <bx:variant scale="2" suffix="@2x"/>
         <bx:variant scale="4" suffix="@4x"/>
         <bx:variant scale="8" suffix="@8x"/>
@@ -30,10 +30,10 @@
     </symbol>
   </defs>
   <ellipse style="stroke: rgb(255, 0, 0); stroke-width: 1500; fill: rgb(255, 255, 255);" rx="8136.24" ry="8136.24" transform="matrix(0.990268, -0.139173, 0.139173, 0.990268, 0, 0)" id="object-0"/>
-  <use href="#symbol-0" width="104.67759704589844" height="618.0222778320312" transform="matrix(10.52214, -2.819397, 2.819397, 10.52214, -1044.053223, 2202.278809)" style="transform-box: fill-box; transform-origin: 50% 50%;"/>
-  <use href="#symbol-0" width="104.67759704589844" height="618.0222778320312" transform="matrix(10.893315, 0, 0, 10.893315, 572.099487, -906.714111)"/>
-  <use href="#symbol-0" width="104.67759704589844" height="618.0222778320312" transform="matrix(10.893315, 0, 0, 10.893315, -3097.328613, -899.048096)"/>
-  <use href="#symbol-0" width="104.67759704589844" height="618.0222778320312" transform="matrix(9.238056, 5.772573, -5.772573, 9.238056, 153.31601, 1145.551758)" style="transform-box: fill-box; transform-origin: 50% 50%;"/>
-  <use href="#symbol-1" width="740.9199829101562" height="560.4312744140625" transform="matrix(10.893315, 0, 0, 10.893315, -3493.986816, -5385.485352)"/>
+  <use href="#symbol-0" width="104.67759704589844" height="618.0222778320312" transform="matrix(10.522139549255371, -2.81939697265625, 2.81939697265625, 10.522139549255371, -1044.05322265625, 2202.27880859375)" style="transform-box: fill-box; transform-origin: 50% 50%;"/>
+  <use href="#symbol-0" width="104.67759704589844" height="618.0222778320312" transform="matrix(10.893315315246582, 0, 0, 10.893315315246582, 572.0994873046875, -906.714111328125)"/>
+  <use href="#symbol-0" width="104.67759704589844" height="618.0222778320312" transform="matrix(10.893315315246582, 0, 0, 10.893315315246582, -3097.32861328125, -899.048095703125)"/>
+  <use href="#symbol-0" width="104.67759704589844" height="618.0222778320312" transform="matrix(9.238056182861328, 5.772572994232178, -5.772572994232178, 9.238056182861328, 153.31600952148438, 1145.5517578125)" style="transform-box: fill-box; transform-origin: 50% 50%;"/>
+  <use href="#symbol-1" width="740.9199829101562" height="560.4312744140625" transform="matrix(10.893315315246582, 0, 0, 10.893315315246582, -3493.98681640625, -5385.4853515625)"/>
   <path style="stroke-width: 1500; stroke: rgb(255, 0, 0); fill: rgb(255, 255, 255); transform-box: fill-box; transform-origin: 50% 50%;" d="M -6000 6000 L 6000 -6000" transform="matrix(0.139173, 0.990268, -0.990268, 0.139173, 0, 0)"/>
 </svg>

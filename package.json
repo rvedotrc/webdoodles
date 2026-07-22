@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack --port 3140",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "typescript": "^5",
-    "@types/node": "^20",
+    "@types/node": "^24.3.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
