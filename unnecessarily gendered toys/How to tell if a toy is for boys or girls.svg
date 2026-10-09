@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-330 -28 660 680" xmlns:bx="https://boxy-svg.com">
+  <path d="M 368.917 178.166 H 513.352 L 513.352 169.166 L 533.352 181.166 L 513.352 193.166 L 513.352 184.166 H 368.917 V 178.166 Z" bx:shape="arrow 368.917 169.166 164.435 24 6 20 0 1@26015b08" style="stroke-width: 1; transform-box: fill-box; transform-origin: 50% 50%; fill: rgb(137, 137, 137);" transform="matrix(-0.555193, 0.831722, -0.831722, -0.555193, -549.854851, 188.803367)"/>
+  <ellipse style="fill: rgb(255, 155, 155); stroke-width: 4px; stroke: rgb(216, 132, 132);" cx="-200" cy="521.84" rx="100" ry="100"/>
+  <path d="M -368.917 -153.568 H -224.482 L -224.482 -162.568 L -204.482 -150.568 L -224.482 -138.568 L -224.482 -147.568 H -368.917 V -153.568 Z" bx:shape="arrow -368.917 -162.568 164.435 24 6 20 0 1@a9a49b62" style="stroke-width: 1; transform-box: fill-box; transform-origin: 50% 50%; fill: rgb(137, 137, 137);" transform="matrix(0.555193, 0.831722, 0.831722, -0.555193, 385.419995, 520.538561)"/>
+  <ellipse style="fill: rgb(126, 225, 242); stroke: rgb(104, 188, 202); stroke-width: 4px;" cy="221.84" rx="100" ry="100"/>
+  <ellipse style="fill: rgb(255, 242, 170); stroke-width: 4px; stroke: rgb(208, 197, 140);" cx="200" cy="521.84" rx="100" ry="100"/>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Arial Rounded MT Bold&quot;; font-size: 24px; white-space: pre;" x="-149.68" y="357.693">Yes</text>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Arial Rounded MT Bold&quot;; font-size: 24px; letter-spacing: 0.2px; text-anchor: middle; word-spacing: 0.8px; white-space: pre;" transform="matrix(1, 0, 0, 1, -237.543274, 109.138191)"><tspan x="236.855" y="72.991">Do you</tspan><tspan x="236.855" dy="1.2em">​</tspan><tspan>operate the</tspan><tspan x="236.855" dy="1.2em">​</tspan><tspan>toy with your</tspan><tspan x="236.855" dy="1.2em">​</tspan><tspan>genitalia?</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Arial Rounded MT Bold&quot;; font-size: 24px; letter-spacing: 0.2px; text-anchor: middle; word-spacing: 0.8px; white-space: pre;" transform="matrix(1, 0, 0, 1, -257.879333, 123.787186)"><tspan x="58.42" y="379.497">This toy</tspan><tspan x="58.42" dy="1.2em">​</tspan><tspan>is not for</tspan><tspan x="58.42" dy="1.2em">​</tspan><tspan>children.</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Arial Rounded MT Bold&quot;; font-size: 24px; letter-spacing: 0.2px; text-anchor: middle; word-spacing: 0.8px; white-space: pre;" transform="matrix(1, 0, 0, 1, -250.529572, 119.622383)"><tspan x="450.937" y="383.74">This toy</tspan><tspan x="450.937" dy="1.2em">​</tspan><tspan>is for any</tspan><tspan x="450.937" dy="1.2em">​</tspan><tspan>child.</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Arial Rounded MT Bold&quot;; font-size: 24px; white-space: pre;" x="107.285" y="357.693">No</text>
+  <defs>
+    <bx:grid x="0" y="0" width="100" height="100" divisions="1"/>
+    <bx:export>
+      <bx:file format="webp" path="How to tell if a toy is for boys or girls.webp" background="#fff"/>
+    </bx:export>
+  </defs>
+  <rect x="-215.76" y="0.831" width="431.85" height="84.169" style="fill: rgb(245, 208, 170); stroke: rgb(213, 179, 145); stroke-width: 4px;"/>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Arial Rounded MT Bold&quot;; font-size: 24px; font-weight: 700; letter-spacing: 0.2px; text-anchor: middle; text-transform: uppercase; word-spacing: 0.8px; white-space: pre;" transform="matrix(1, 0, 0, 1, 172.879105, 10.339666)"><tspan x="-172.7" y="26.229">How to tell if a toy is</tspan><tspan x="-172.7" dy="1.2em">​</tspan><tspan>for boys or girls: A guide</tspan></text>
+  <text style="fill: rgb(147, 147, 147); font-family: &quot;Arial Hebrew&quot;; font-size: 12px; font-style: italic; text-anchor: middle; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;" x="338.054" y="-488.1" transform="matrix(0, 1, -1, 0, -4.813408, -84.419434)"><tspan x="322.327" y="140.323" style="font-size: 12px; word-spacing: 0px;">original: </tspan><tspan style="font-size: 12px; word-spacing: 0px;">Kristen Myers Design</tspan></text>
+</svg>
